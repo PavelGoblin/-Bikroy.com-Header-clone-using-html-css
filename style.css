@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+header{
+    height: 260px;
+    width: 100%;
+    background-color: #149777;
+}
+.headerTop{
+    height: 65px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 135px;
+}
+.navSec{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav1 p{
+    font-weight:500;
+}
+.nav2{
+    border: 1px groove #4b4949b3;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+.space{
+    width: 400px;
+}
+.nav3{
+    display: flex;
+    gap: 10px;
+}
+
+/* right */
+.htopRight{
+   height: 100%;
+   display: flex;
+   align-items: center; 
+}
+.PyrAds{
+    height: 45px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc800;
+    color: #673500;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/*-----Header Bottom-----*/
+
+.headerbtm{
+    height: 195px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.locationSection{
+    height: 35px;
+    width: 170px;
+    background-color: #10846F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.searchSec{
+    height: 60px;
+    width: 800px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.inputSearch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputSearch input{
+    height: 100%;
+    width: 92%;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.inputSearch i{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffc800;
+    font-size: 1.5rem;
+    color: #673500;
+}
